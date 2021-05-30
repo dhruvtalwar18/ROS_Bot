@@ -1,0 +1,2 @@
+mybot_control:mybot_description:mybot_gazebo:mybot_navigation
+-DCATKIN_DEVEL_PREFIX=/home/dhruv/mybot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/dhruv/mybot_ws/install -G Unix Makefiles
