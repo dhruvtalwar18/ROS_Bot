@@ -45,10 +45,10 @@ $ rosrun map_server map_saver -f ~/mybot_ws/src/mybot_navigation
 We also mapped the lab corridor environment using a UTM-30LX Lidar. We can see the map of the environment as made by the laser scanner. It uses a 3 point occupancy grid using the point cloud data from the 2D lidar. We can see the mapping of the environemnt below.<br>
 <br><br>
 <p align ="center"><img align ="center" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Corridor_mapping.gif" title="Result 1" ></p>
-<p align="center">Fig.2 Mapping in real life environment</p><br><br><br><br>
+<p align="center">Fig.2 Mapping in real life environment</p><br><br><br><br><br><br>
 
 
-<p><img align ="left" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Real%20time%20map%20of%20lab%20corridor_run1.png" title="Result 2" width = "450" height = "170" ><img align ="right" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Real%20time%20map%20of%20lab%20corridor_run2.png" title="Result 3" width = "450" height = "170" ></p><br><br><br><br><br><br><br><br>
+<p><img align ="left" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Real%20time%20map%20of%20lab%20corridor_run1.png" title="Result 2" width = "450" height = "170" ><img align ="right" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Real%20time%20map%20of%20lab%20corridor_run2.png" title="Result 3" width = "400" height = "170" ></p><br><br><br><br><br><br><br><br>
 
 <p align="center">Fig.3 Real Life Maps Achieved</p><br><br>
 
