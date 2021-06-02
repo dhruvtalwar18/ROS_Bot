@@ -48,7 +48,7 @@ We also mapped the lab corridor environment using a UTM-30LX Lidar. We can see t
 <p align="center">Fig.2 Mapping in real life environment</p><br><br><br><br><br>
 
 
-<p><img align ="left" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Real%20time%20map%20of%20lab%20corridor_run1.png" title="Result 2" width = "450" height = "170" ><img align ="right" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Real%20time%20map%20of%20lab%20corridor_run2.png" title="Result 3" width = "400" height = "170" ></p><br><br><br><br><br><br><br><br>
+<p><img align ="left" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Real%20time%20map%20of%20lab%20corridor_run1.png" title="Result 2" width = "400" height = "170" ><img align ="right" src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Real%20time%20map%20of%20lab%20corridor_run2.png" title="Result 3" width = "400" height = "170" ></p><br><br><br><br><br><br><br><br>
 
 <p align="center">Fig.3 Real Life Maps Achieved</p><br><br>
 
