@@ -36,5 +36,11 @@ Once we are happy with the map that can we seen on the rviz simulation we can sa
 $ rosrun map_server map_saver -f ~/mybot_ws/src/mybot_navigation
 
 
+<h1><b> Mapping Demonstation </h1></b>
+
+<p align="center"><img src="https://github.com/dhruvtalwar18/ROS_Bot/blob/main/Images/Mapping_GIF_.gif" title="Result 1"></p>
+
+<p align="center">Fig.1 Mapping Demonstration</p>
+
 
 
