@@ -1,2 +1,3 @@
 # ROS_Bot
-Simulating a 2 wheel differential drive robot and adding lidar sensor to it for exploring indoor navigation capabilities of ROS
+
+Simulating a 2 wheel differential drive robot for implementing particle filter-based localization of the robot mobile robot by using a single lidar sensor under SLAM in ROS environment
