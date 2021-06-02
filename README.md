@@ -3,9 +3,9 @@
 Simulating a 2 wheel differential drive robot for implementing particle filter-based localization of the robot mobile robot by using a single lidar sensor under SLAM in ROS environment
 
 The Following commands need to be run to launch the mybot_ws package
+Note: Ubuntu 16.04 and ROS Kinetic have been used to develop this
 
-
-Download the mybot_ws
+Clone the repo in the home directory
 
 $ cd mybot_ws\
 $ catkin_make\
