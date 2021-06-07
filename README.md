@@ -62,7 +62,8 @@ $ roslaunch mybot_gazebo mybot_world.launch\
 We will then load the map in the rviz environment
 
 $ roslaunch mybot_navigation amcl_demo.launch  map_file:=<file path/map.yaml>\
-$ roslaunch turtlebot_rviz_launchers view_navigation.launch
+$ roslaunch mybot_description mybot_rviz_amcl.launch
+
 
 
 We can now give any point on the map as the goal and the robot shall reach it. he robot is localized according to the map frame in the global map, and relative to its position we can get the coordinates of the robot.
