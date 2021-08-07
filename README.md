@@ -7,34 +7,42 @@ Note: Ubuntu 16.04 and ROS Kinetic have been used to develop this
 
 Clone the repo in the home directory
 
+```
 $ cd mybot_ws\
 $ catkin_make\
 $ source devel/setup.bash 
+```
+Then the following must be run:
 
+
+```
 $ roslaunch mybot_gazebo mybot_world.launch
 $ roslaunch mybot_description mybot_rviz.launch
+```
+
 
 This shall open the model in the gazebo and RVIZ environment
 
 To move the robot around in the environment 
-
+```
 $ roslaunch mybot_navigation mybot_teleop.launch
-
+```
 
 Once we are familiar with launching this, we can now start to build maps of the environment
 
 Launch the following in subsequent terminals
 
+```
 $ roslaunch mybot_gazebo mybot_world.launch\
 $ roslaunch mybot_navigation gmapping_demo.launch\
 $ roslaunch mybot_description mybot_rviz_gmapping.launch
-
+```
 Now we can move the robot around the environement to make an occupancy grid of the environment. 
 
 Once we are happy with the map that can we seen on the rviz simulation we can save the map using
-
+```
 $ rosrun map_server map_saver -f ~/mybot_ws/src/mybot_navigation
-
+```
 
 <h1><b> Mapping Demonstration </h1></b>
 
@@ -56,14 +64,16 @@ We also mapped the lab corridor environment using a UTM-30LX Lidar. We can see t
 <h1><b> Localization and Navigation Demonstration </h1></b>
 
 To execute localization we first have to launch the robot in the desired environment 
-
+```
 $ roslaunch mybot_gazebo mybot_world.launch\
+```
 
 We will then load the map in the rviz environment
 
+```
 $ roslaunch mybot_navigation amcl_demo.launch  map_file:=<file path/map.yaml>\
 $ roslaunch mybot_description mybot_rviz_amcl.launch
-
+```
 
 
 We can now give any point on the map as the goal and the robot shall reach it. he robot is localized according to the map frame in the global map, and relative to its position we can get the coordinates of the robot.
